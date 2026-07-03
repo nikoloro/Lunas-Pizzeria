@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna Pizzeria – Stone‑Baked Italian Classics</title>
+
+    <!-- Basic SEO -->
+    <meta name="description" content="Luna Pizzeria is a family-owned restaurant serving stone-baked pizzas, fresh pastas, and Italian classics in Anaheim, CA.">
+    <meta name="keywords" content="pizza, pizzeria, Italian restaurant, Anaheim, stone oven, delivery, takeout">
+    <meta name="author" content="Luna Pizzeria">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Luna Pizzeria – Stone‑Baked Italian Classics">
+    <meta property="og:description" content="Fresh, authentic, stone‑baked pizzas made daily with premium ingredients.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/hero-pizza.webp">
+
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Luna Pizzeria</div>
+
+        <nav class="nav" aria-label="Primary navigation">
+            <ul class="nav-links">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+
+        <button
+            class="mobile-menu-btn"
+            id="mobileMenuBtn"
+            type="button"
+            aria-label="Toggle mobile navigation"
+        >
+            ☰
+        </button>
+    </header>
+
+    <!-- MOBILE NAV -->
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#order">Order</a>
+    </nav>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <h1 id="hero-title">Fresh. Authentic. Made Daily.</h1>
+                <p class="hero-subtitle">
+                    Stone‑baked pizzas, handcrafted pastas, and Italian classics served with warmth and tradition.
+                </p>
+                <div class="hero-cta">
+                    <button class="primary-btn" id="heroOrderBtn">Order Now</button>
+                    <a href="#menu" class="secondary-link">View Full Menu</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D" alt="Fresh stone‑baked pizza with melted cheese and basil">
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section id="menu" class="section menu" aria-labelledby="menu-title">
+            <h2 id="menu-title">Our Menu</h2>
+
+            <!-- Pizzas -->
+            <div class="menu-category">
+                <h3>Pizzas</h3>
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Margherita</h4>
+                            <p>Fresh basil, mozzarella, tomato sauce.</p>
+                        </div>
+                        <span class="menu-price">$14.99</span>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Pepperoni</h4>
+                            <p>Classic pepperoni with mozzarella.</p>
+                        </div>
+                        <span class="menu-price">$16.49</span>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>BBQ Chicken</h4>
+                            <p>Grilled chicken, BBQ sauce, red onions.</p>
+                        </div>
+                        <span class="menu-price">$17.49</span>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Four Cheese</h4>
+                            <p>Mozzarella, parmesan, ricotta, provolone.</p>
+                        </div>
+                        <span class="menu-price">$16.99</span>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Meat Lovers</h4>
+                            <p>Pepperoni, sausage, ham, bacon.</p>
+                        </div>
+                        <span class="menu-price">$18.49</span>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Pastas -->
+            <div class="menu-category">
+                <h3>Pastas</h3>
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Fettuccine Alfredo</h4>
+                            <p>Creamy parmesan sauce.</p>
+                        </div>
+                        <span class="menu-price">$15.99</span>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Spaghetti Bolognese</h4>
+                            <p>Slow‑cooked meat sauce.</p>
+                        </div>
+                        <span class="menu-price">$16.99</span>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Penne Pesto</h4>
+                            <p>Basil pesto, cherry tomatoes.</p>
+                        </div>
+                        <span class="menu-price">$15.49</span>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Sides -->
+            <div class="menu-category">
+                <h3>Sides</h3>
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Garlic Bread</h4>
+                            <p>Buttery, toasted, and served warm.</p>
+                        </div>
+                        <span class="menu-price">$6.99</span>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Caesar Salad</h4>
+                            <p>Crisp romaine, parmesan, croutons.</p>
+                        </div>
+                        <span class="menu-price">$8.49</span>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Mozzarella Sticks</h4>
+                            <p>Served with marinara sauce.</p>
+                        </div>
+                        <span class="menu-price">$7.99</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section id="gallery" class="section gallery" aria-labelledby="gallery-title">
+            <h2 id="gallery-title">Gallery</h2>
+            <p class="section-subtitle">
+                A glimpse into our kitchen, our food, and the atmosphere at Luna Pizzeria.
+            </p>
+
+            <div class="gallery-grid">
+                <img src="https://media.istockphoto.com/id/926714862/photo/baked-tasty-margherita-pizza-getting-out-of-the-oven.webp?a=1&b=1&s=612x612&w=0&k=20&c=9GBEtM9qKcC7d1lN6N9Q89P8UUm7Kd-PyMqqOowzX5Y=" alt="Stone oven with pizza baking inside" loading="lazy">
+                <img src="https://plus.unsplash.com/premium_photo-1726776054429-a359040d2f9c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VGFibGUlMjB3aXRoJTIwbXVsdGlwbGUlMjBwaXp6YXMlMjBhbmQlMjBzaWRlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Table with multiple pizzas and sides" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2hlZiUyMHByZXBhcmluZyUyMGZyZXNoJTIwcGl6emElMjBkb3VnaHxlbnwwfHwwfHx8MA%3D%3D" alt="Chef preparing fresh pizza dough" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1716237389072-354bcb7ab6d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q296eSUyMGludGVyaW9yJTIwb2YlMjBwaXp6ZXJpYXxlbnwwfHwwfHx8MA%3D%3D" alt="Cozy interior of Luna Pizzeria" loading="lazy">
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section about" aria-labelledby="about-title">
+            <h2 id="about-title">About Us</h2>
+            <p>
+                Luna Pizzeria is a family‑owned restaurant dedicated to serving handcrafted pizzas made with fresh ingredients
+                and baked in our stone oven. Our recipes blend tradition with modern flavors to bring you an unforgettable
+                dining experience—whether you’re dining in, taking out, or ordering for delivery.
+            </p>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact & Visit</h2>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Location</h3>
+                    <p>
+                        123 Luna Street<br>
+                        Anaheim, CA 92801
+                    </p>
+                    <div class="contact-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18..."
+                            loading="lazy"
+                            allowfullscreen
+                            title="Luna Pizzeria location on Google Maps"
+                        ></iframe>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Hours</h3>
+                    <p>
+                        Mon–Fri: 11:00 AM – 10:00 PM<br>
+                        Sat–Sun: 12:00 PM – 11:00 PM
+                    </p>
+                    <p class="contact-note">
+                        Last orders accepted 30 minutes before closing.
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Reach Us</h3>
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:hello@lunapizzeria.com">hello@lunapizzeria.com</a>
+                    </p>
+                    <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+15551234567">(555) 123‑4567</a>
+                    </p>
+                    <p>
+                        <strong>Instagram:</strong>
+                        <a href="https://www.instagram.com/lunapizzeria" target="_blank" rel="noopener">
+                            @lunapizzeria
+                        </a>
+                    </p>
+                    <p class="contact-review">
+                        ⭐ <a href="#" class="review-link">Review us on Google</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ORDER -->
+        <section id="order" class="section order" aria-labelledby="order-title">
+            <h2 id="order-title">Order Online</h2>
+            <p>
+                Online ordering is being prepared for launch. You can pre‑register below and we’ll notify you as soon as it’s live.
+            </p>
+            <button class="primary-btn" id="openOrderModalBtn">Notify Me</button>
+        </section>
+
+        <!-- ORDER MODAL -->
+        <div class="modal-backdrop" id="orderModalBackdrop" aria-hidden="true">
+            <div class="modal" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
+                <button class="modal-close" id="closeOrderModalBtn" aria-label="Close notification form">×</button>
+
+                <h3 id="orderModalTitle">Get Notified When Online Ordering Launches</h3>
+                <p class="modal-subtitle">
+                    Leave your details and we’ll send you an email when Luna Pizzeria starts accepting online orders.
+                </p>
+
+                <form class="modal-form" id="orderNotifyForm">
+                    <label for="notify-name">Name</label>
+                    <input id="notify-name" name="name" type="text" placeholder="Your Name" required>
+
+                    <label for="notify-email">Email</label>
+                    <input id="notify-email" name="email" type="email" placeholder="you@example.com" required>
+
+                    <button type="submit" class="primary-btn">Notify Me</button>
+                </form>
+
+                <p class="modal-confirmation" id="orderModalConfirmation" hidden>
+                    Thank you! You’ll be notified as soon as online ordering is available.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Luna Pizzeria — All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
